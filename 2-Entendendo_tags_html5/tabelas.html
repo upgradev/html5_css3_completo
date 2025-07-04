@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas - HTML 5</title>
+  </head>
+  <body>
+    <h1>Criando uma tabela com HTML 5</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nome do Usuário</th>
+          <th>E-mail</th>
+          <th>Telefone</th>
+          <th>Cidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fulano</td>
+          <td>fulano@teste.com</td>
+          <td>51 555566</td>
+          <td rowspan="2">Rio de Janeiro</td>
+        </tr>
+        <tr>
+          <td>Fulano</td>
+          <td>fulano@teste.com</td>
+          <td>51 555566</td>
+          <!-- <td>Rio de Janeiro</td> -->
+        </tr>
+        <tr>
+          <td>Roberto</td>
+          <td>roberto@teste.com</td>
+          <td>34 565778</td>
+          <td>São paulo</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>maria@teste.com</td>
+          <td>12 343434</td>
+          <td rowspan="2">Manaus</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>maria@teste.com</td>
+          <td>12 343434</td>
+          <!-- <td>Manaus</td> -->
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Usuários cadastrados no sistema</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
