@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entendo sobre Displays</title>
+    <style type="text/css">
+      .coluna {
+        border: solid 2px #999;
+        /* display block */
+        width: 150px;
+        height: 150px;
+        /* display: inline; */
+        float: left;
+
+        /* border box */
+        box-sizing: border-box;
+
+        /* margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-bottom: 25px; */
+        margin: 50px 20px 25px  10px;
+        margin: 20px 10px; /* top botton , left right*/
+        margin: 10px;
+        /* padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+         */
+        padding: 10px 15px 20px 10px;
+        text-align: right;
+
+        border-radius: 50px 0 20px 10px;
+        /* border-radius: 50%; */
+      }
+      .coluna h2{
+        display: inline;
+      }
+      .bt {
+        border: solid 1px #000;
+        display: block;
+        float: left;
+      }
+      p {
+        overflow: hidden;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tipos de display no HTML / CSS</h1>
+    <div class="coluna">
+      <h2>Coluna 1</h2>
+    </div>
+    <div class="coluna">
+      <h2>Coluna 2</h2>
+    </div>
+    <div class="coluna">
+      <h2>Coluna 3</h2>
+    </div>
+    <p>
+      <a href="#" class="bt">Tag com Display inline</a>
+      <img src="./imagens/feliz.png" alt="" />
+      <a href=""> Novo Link</a>
+    </p>
+  </body>
+</html>

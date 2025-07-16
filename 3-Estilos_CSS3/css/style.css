@@ -1,0 +1,88 @@
+h1.destaque {
+  /* font-family: Tahoma, arial, sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-size: 52px;
+  font-style: italic; /* italic - oblique */
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: blue; /* #ff6600  rgb(255, 0,0) */
+  word-spacing: 20px; /* espaço entre as palavras*/
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px; /* espaçamento entre as linhas */
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+
+p img {
+  vertical-align: middle; /* Alinhamento vertical in line */
+}
+
+#estilo {
+  text-decoration: underline wavy #f60 3px;
+}
+
+.sub {
+  font-size: 48px;
+}
+.sub span {
+  vertical-align: sub;
+  font-size: 36px;
+}
+
+.super {
+  font-size: 48px;
+}
+.super span {
+  vertical-align: super;
+  font-size: 36px;
+}
+
+/* Hierarquia dos seletores */
+h1 {
+  font-family: Arial;
+}
+h1 img {
+  vertical-align: middle;
+  height: 20px;
+}
+
+#destaque {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #666;
+  border: double 5px #f60;
+}
+
+.teste{
+  border-top: solid #ddd 2px;
+  border-bottom: double #999 10px;
+  border-left: dotted #ff0000 5px; 
+  border-right: dotted #00ff00 5px; 
+}
+
+#destaque h2 {
+  color: #ccc;
+}
+
+.destaque h2 {
+  color: blue;
+}
+
+div p {
+  font-weight: normal;
+}
+
+#destaque strong {
+  color: red;
+}
+
+.destaque p strong {
+  color: green;
+}

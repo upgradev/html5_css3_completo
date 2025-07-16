@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions CSS</title>
+    <style>
+      .noticia {
+        width: 250px;
+        height: 100px;
+        border: solid 1px #333;
+        position: absolute;
+        overflow: hidden;
+      }
+      .noticia p{
+        font-size: 14px;
+      }
+      .um {
+        background: red;
+        top: 5px;
+        left: 5px;
+        z-index: 2;
+      }
+      .dois {
+        background: green;
+        top: 5px;
+        left: 300px;
+        z-index: 9;
+      }
+      .tres {
+        background: blue;
+        top: 5px;
+        left: 600px;
+        z-index: 3;
+      }
+      .info {
+        border: solid 1px #333;
+        height: 1000px;
+        margin-top: 150px;
+        position: relative;
+      }
+      .whats {
+        position: fixed;
+        z-index: 99;
+        top: 10px;
+        right: 20px;
+      }
+      .whats a {
+        background: #2c733b;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        border-radius: 200px;
+        padding: 5px 25px;
+        width: 200px;
+      }
+      .whats img {
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whats">
+      <a href="">
+        <img src="./imagens/whatsapp-icon.png" alt="WhatsApp" />
+        Entre em contato
+      </a>
+    </div>
+
+    <div class="info">
+      <div class="noticia um">
+        <h2>Título da Notícia</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+          praesentium recusandae omnis, mollitia temporibus atque quam pariatur
+          libero dicta, voluptates nisi molestiae ipsa ut, eos adipisci
+          repudiandae reiciendis perspiciatis velit.
+        </p>
+      </div>
+      <div class="noticia dois">
+        <h2>Título da Notícia</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+          praesentium recusandae omnis, mollitia temporibus atque quam pariatur
+          libero dicta, voluptates nisi molestiae ipsa ut, eos adipisci
+          repudiandae reiciendis perspiciatis velit.
+        </p>
+      </div>
+      <div class="noticia tres">
+        <h2>Título da Notícia</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+          praesentium recusandae omnis, mollitia temporibus atque quam pariatur
+          libero dicta, voluptates nisi molestiae ipsa ut, eos adipisci
+          repudiandae reiciendis perspiciatis velit.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

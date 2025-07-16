@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shadows</title>
+    <style type="text/css">
+      body {
+        background: #f7f7f7;
+      }
+      .titulo {
+        font-family: sans-serif;
+        font-size: 62px;
+        text-align: center;
+        color: #2d6ff7;
+        text-shadow: 2px 2px 5px #333;
+      }
+      .destaque {
+        height: 150px;
+        margin: 20px 10px;
+        padding: 10px 20px;
+        border: solid 1px #999;
+      }
+
+      .plano-um {
+        background: #2a7b9b;
+        background: linear-gradient(
+          90deg,
+          rgba(42, 123, 155, 1) 0%,
+          rgba(251, 255, 0, 1) 100%,
+          rgba(49, 134, 152, 1) 50%,
+          rgba(199, 125, 6, 1) 88%,
+          rgba(237, 221, 83, 1) 80%
+        );
+      }
+
+      .plano-dois {
+        background: #2a7b9b;
+        background: linear-gradient(
+          90deg,
+          rgba(42, 123, 155, 1) 0%,
+          rgba(251, 255, 0, 1) 0%,
+          rgba(49, 134, 152, 1) 37%,
+          rgba(199, 125, 6, 1) 81%,
+          rgba(237, 221, 83, 1) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="titulo">Gradientes</h1>
+
+    <div class="destaque plano-um">
+      <h2>Exemplo 1</h2>
+    </div>
+
+    <div class="destaque plano-dois">
+      <h2>Exemplo 2</h2>
+    </div>
+  </body>
+</html>
